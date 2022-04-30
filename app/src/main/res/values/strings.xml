@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ZakatOfitrana Calculator</string>
+    <string name="in_terms_of_gold">In terms of Gold</string>
+    <string name="in_terms_of_silver_chandi">In Terms of Silver(Chandi)</string>
+    <string name="in_terms_of_cash">In Terms of Cash</string>
+</resources>

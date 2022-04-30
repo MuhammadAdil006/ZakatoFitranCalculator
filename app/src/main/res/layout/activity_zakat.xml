@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zakat">
+
+    <Button
+        android:id="@+id/gold"
+        android:layout_width="227dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/in_terms_of_gold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/silver"
+        android:layout_width="231dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/in_terms_of_silver_chandi"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/gold" />
+
+    <Button
+        android:id="@+id/cash"
+        android:layout_width="230dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="248dp"
+        android:text="@string/in_terms_of_cash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/silver"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="91dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
