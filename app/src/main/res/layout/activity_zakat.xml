@@ -10,31 +10,35 @@
         android:id="@+id/gold"
         android:layout_width="227dp"
         android:layout_height="71dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginStart="8dp"
         android:text="@string/in_terms_of_gold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
 
     <Button
         android:id="@+id/silver"
         android:layout_width="231dp"
         android:layout_height="70dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="39dp"
         android:text="@string/in_terms_of_silver_chandi"
+        app:layout_constraintBottom_toTopOf="@+id/gold"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/gold" />
+        app:layout_constraintTop_toBottomOf="@+id/cash"
+        app:layout_constraintVertical_bias="0.333" />
 
     <Button
         android:id="@+id/cash"
         android:layout_width="230dp"
         android:layout_height="62dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="248dp"
+        android:layout_marginStart="4dp"
         android:text="@string/in_terms_of_cash"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/silver"
-        app:layout_constraintVertical_bias="0.615" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"

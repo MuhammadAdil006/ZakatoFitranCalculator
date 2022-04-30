@@ -2,8 +2,100 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Cal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ZakatCash">
 
+    <LinearLayout
+        android:id="@+id/cal"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/enter_gold_rs_per_tola"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:translationY="100dp" />
+
+        <EditText
+            android:id="@+id/GoldPerTola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="eg:11500"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:translationY="100dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Enter Silver Rs per Tola"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:translationY="100dp" />
+
+        <EditText
+            android:id="@+id/SilverPerTola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="eg:3500"
+            android:textAlignment="center"
+            android:translationY="100dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="Enter Gathered Price In Rs (Yearly) "
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:translationY="100dp" />
+
+        <EditText
+            android:id="@+id/PriceYearly"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="eg:215000"
+            android:textAlignment="center"
+            android:translationY="100dp" />
+
+        <Button
+            android:id="@+id/calculateByCash"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="calculate"
+            android:translationY="100dp" />
+
+        <TextView
+            android:id="@+id/Output"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:text="Zakat In Cash"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:translationY="150dp" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

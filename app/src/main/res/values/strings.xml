@@ -3,4 +3,12 @@
     <string name="in_terms_of_gold">In terms of Gold</string>
     <string name="in_terms_of_silver_chandi">In Terms of Silver(Chandi)</string>
     <string name="in_terms_of_cash">In Terms of Cash</string>
+    <string name="enter_gold_in_tola">Enter Gold in Tola</string>
+    <string name="e_g_7_5">e.g:7.5</string>
+    <string name="enter_price_of_gold_per_tola">Enter price of Gold per Tola</string>
+    <string name="eg_115000">eg(115000)</string>
+    <string name="buttoncalculate">ButtonCalculate</string>
+    <string name="zakatinrupees">ZakatInRupees</string>
+    <string name="calculatezakat">CalculateZakat</string>
+    <string name="enter_gold_rs_per_tola">Enter Gold Rs per Tola</string>
 </resources>
