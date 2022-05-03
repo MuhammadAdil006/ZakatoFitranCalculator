@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ZakatOfitranaCalculator">
         <activity
+            android:name=".Wheat_Fitrana"
+            android:exported="false" />
+        <activity
+            android:name=".KishmishFitrana"
+            android:exported="false" />
+        <activity
             android:name=".ZakatCash"
             android:exported="false" />
         <activity
