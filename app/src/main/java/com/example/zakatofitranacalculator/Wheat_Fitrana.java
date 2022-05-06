@@ -27,7 +27,8 @@ public class Wheat_Fitrana extends AppCompatActivity {
             public void onClick(View view) {
                 int Num= Integer.parseInt(String.valueOf(Noofpersons.getText())) ;
                 Float price=Float.parseFloat(String.valueOf(WheatPrice.getText()));
-
+                price=price*2*Num;
+                OutputPannel.setText(String.valueOf(price));
             }
         });
     }

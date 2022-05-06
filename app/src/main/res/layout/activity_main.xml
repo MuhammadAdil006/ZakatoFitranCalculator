@@ -39,5 +39,6 @@
             android:text="Calculate  Zakat"
             android:textAlignment="center"
             android:translationX="120dp" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

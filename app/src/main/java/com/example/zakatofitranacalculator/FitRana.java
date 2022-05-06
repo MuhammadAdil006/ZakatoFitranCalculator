@@ -7,28 +7,28 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Fitrana extends AppCompatActivity {
-    Button Kishmish,Wheat;
+public class FitRana extends AppCompatActivity {
+    Button KishMish,Wheat;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Kishmish=(Button) findViewById(R.id.Kishmish);
-        Wheat =(Button) findViewById(R.id.Wheat);
+
 
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fitrana);
-
-        Kishmish.setOnClickListener(new View.OnClickListener() {
+        KishMish =(Button) findViewById(R.id.Kishmish);
+        Wheat =(Button) findViewById(R.id.Wheat);
+        KishMish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent6=new Intent(Fitrana.this,KishmishFitrana.class);
+                Intent intent6=new Intent(FitRana.this,KishmishFitrana.class);
                 startActivity(intent6);
             }
         });
         Wheat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent6=new Intent(Fitrana.this,Wheat_Fitrana.class);
+                Intent intent6=new Intent(FitRana.this,Wheat_Fitrana.class);
                 startActivity(intent6);
             }
         });

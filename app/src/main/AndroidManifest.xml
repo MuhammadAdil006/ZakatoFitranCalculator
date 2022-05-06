@@ -25,7 +25,7 @@
             android:name=".ZakatGold"
             android:exported="false" />
         <activity
-            android:name=".Fitrana"
+            android:name=".FitRana"
             android:exported="false" />
         <activity
             android:name=".Zakat"
